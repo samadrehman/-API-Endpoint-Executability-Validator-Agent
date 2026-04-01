@@ -310,6 +310,6 @@ console.log(result);
      - Steps to reproduce
      - Your environment (OS, Node/Bun version)
 
-4. **Contact Composio**:
-   - Email: support@composio.dev
+4. **Contact **:
+   - Email: samadrehman550@gmail.com
    - Include debug logs from `DEBUG=* bun src/run.ts`
