@@ -1,3 +1,4 @@
+git branch -M main
 {
   "gmail": {
     "base_url": "https://gmail.googleapis.com",
