@@ -137,9 +137,6 @@ Use `result.status` to classify endpoints: 2xx = valid, 404 = invalid, 403 = ins
 | `insufficient_scopes` | Endpoint exists but account lacks permissions | 403, "forbidden", "insufficient permissions" |
 | `error` | Something else went wrong | 400, 500, timeouts, malformed responses |
 
-**What counts as "valid":** Any 2xx response means the endpoint works. Your agent doesn't need to validate the response body or test multiple scenarios — one successful call is enough.
-
-**Key challenge — avoiding false negatives:** The most common mistake is classifying a valid endpoint as `error` because your agent constructed a bad request (wrong params, missing required fields, bad path parameter). Think carefully about how your agent avoids this. A valid endpoint that your agent fails to call correctly is worse than admitting uncertainty.
 
 ## Dependency resolution
 
