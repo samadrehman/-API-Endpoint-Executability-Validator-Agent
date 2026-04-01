@@ -1,0 +1,33 @@
+{
+  "name": "endpoint-tester-interview",
+  "version": "1.0.0",
+  "description": "AI agent for automated API endpoint executability validation",
+  "private": true,
+  "main": "src/run.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@composio/core": "latest"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "run": "bun run src/run.ts",
+    "connect": "bun run src/connect.ts",
+    "test:endpoints": "bun run src/index.ts",
+    "debug": "DEBUG=* bun run src/run.ts"
+  },
+  "author": "Composio Contributors",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "testing",
+    "composio",
+    "verification",
+    "integration"
+  ]
+}
