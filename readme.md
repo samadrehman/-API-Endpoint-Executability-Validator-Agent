@@ -207,7 +207,6 @@ src/
 ├── endpoints.json    <- Sample endpoint definitions (Gmail + Google Calendar)
 ├── index.ts          <- Prints a summary of endpoints
 └── connect.ts        <- Google OAuth connection setup
-ARCHITECTURE.md       <- YOUR ARCHITECTURE DOC (create this)
 ```
 
 ### How the runner works
